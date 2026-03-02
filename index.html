@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ExamDuty Pro - Intelligent Exam Duty Management" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="icon" type="image/svg+xml" href="/examdutypro/favicon.svg" />
+    <title>ExamDuty Pro</title>
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body, #root { margin: 0; padding: 0; height: 100%; }
+      body { overflow: hidden; background: #0f172a; }
+    </style>
+    <script type="module" crossorigin src="/timetablemaker/assets/index-8cb95883.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>
